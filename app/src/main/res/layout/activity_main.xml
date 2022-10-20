@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+xmlns：命名空间
+match_parent：适配上级视图的长宽
+gravity:布局位置：居中，靠边
+orientation：线性布局流水方向,v是从上到下，h是从左到右
+TextView：文字区域
+wrap_content：随内容变大变小
+-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/cardview_dark_background"
+    >
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_margin="30sp"
+    android:padding="50sp"
+    android:background="@color/white"
+    >
+
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="225dp"
+        android:layout_height="100dp"
+        android:layout_margin="20sp"
+        android:padding="3dp"
+        android:text="说的道理"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/bt1"
+        android:layout_width="385dp"
+        android:layout_height="127dp"
+        android:text="下一集"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
+</LinearLayout>

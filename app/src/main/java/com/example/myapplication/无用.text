@@ -1,0 +1,51 @@
+/*
+package com.example.myapplication;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.TextView;
+
+public class calculator extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_calculator);
+
+        TextView res=findViewById(R.id.result);
+
+        Button bt1=findViewById(R.id.CE);
+        bt1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                res.setText("hello bitch");
+            }
+        });
+    }
+}*/
+
+
+/*    public static void alert(Class activity,String title, String info, String yes, String no) {
+        AlertDialog.Builder dialog = new AlertDialog.Builder(MainActivity.
+                this);
+        dialog.setTitle(title);
+        dialog.setMessage(info);
+        dialog.setCancelable(false);
+        dialog.setPositiveButton(yes, new DialogInterface.
+                OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+            }
+
+        });
+        dialog.setNegativeButton(no, new DialogInterface.
+                OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+            }
+        });
+        dialog.show();
+    }*/

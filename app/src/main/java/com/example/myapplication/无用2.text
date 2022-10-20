@@ -1,0 +1,43 @@
+/*
+package com.example.myapplication;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.TextView;
+
+public class MainActivity2 extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main2);
+
+        */
+/*设置组件长宽的写法*//*
+
+        TextView a2te1=findViewById(R.id.a2te1);
+        ViewGroup.LayoutParams v=a2te1.getLayoutParams();
+        //v.width=20;
+
+        */
+/*button事件响应的写法：匿名内部类*//*
+
+        Button bt2=findViewById(R.id.bt2);
+        bt2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                */
+/*跳转页面的写法*//*
+
+                Intent i1=new Intent();
+                i1.setClass(MainActivity2.this,MainActivity.class);
+                startActivity(i1);
+            }
+        });
+    }
+}*/
